@@ -2,7 +2,7 @@ import "dotenv/config";
 import db from "./src/database/database.js";
 import app from "./src/app.js";
 
-let PORT = process.env.PORT || 3000;
+let PORT = /* process.env.PORT || */ 3000;
 
 const main = async () => {
   try {
